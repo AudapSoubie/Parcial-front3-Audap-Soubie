@@ -7,12 +7,12 @@ import Form from './Components/Form'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const[enviado,setEnviado] = useState(false)
 
   return (
     <>
-  <Card/>
-  <Form/>
+  
+  <Form setEnviado= {setEnviado}/>
     </>
   )
 }
